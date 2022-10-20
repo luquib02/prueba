@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Obligatorio 1</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body> 
+	<header>
+		<h1>Tecnoevent</h1>
+	</header>
+	<details>
+		<summary>Informacion sobre este trabajo</summary>
+		<p>Obligatorio de Proogramación 1</p>
+		<p>Sistema creado por : Santiago Gestido (304859) y Agustín Obispo (288482)</p>
+		<p>Grupo: M1A </p>
+		<p>Segundo semestre 2022</p>
+
+	</details>
+	<section id="Planificacion">
+	<h2 class="subtitulo">Planificacion</h2>
+	<div class ="divtabla" >
+	<table>
+	<thead>
+		<tr>
+			<th>Día y hora</th>
+			<th>Presentación</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class = "dia1"> 
+			<td>1-8:00</td>
+			<td rowspan="2">1era Presentación del día 1 de 30 minutos</td>
+		</tr>
+		<tr class="dia1">
+			<td>1-8:15</td>
+		</tr>
+		<tr class="dia1">
+			<td>1-8:30</td>
+			<td rowspan="3">2da Presentación del día de 45 minutos
+			</tr>
+			<tr class="dia1">
+				<td>1-8:45</td>
+			</tr>
+			<tr class = "dia1">
+				<td>1-9:00</td>
+			</tr>
+			<tr class = "dia1">
+				<td>1-9:15</td>
+				<td>3era Presentación del día 1 de 15 minutos</td>
+			</tr>
+			<tr class = "dia2">
+				<td>2-8:00</td>
+				<td>1era Presentación del día 2 de 15 minutos</td>
+			</tr>
+			<tr class = "dia2">
+				<td>2-8:15</td>
+				<td rowspan="2">2da Presentación del día 2 de 30 minutos</td>
+			</tr>
+			<tr class = "dia2">
+				<td>2-8:30
+			</tr>
+			<tr class = "dia3">
+				<td>3-8:00</td>
+				<td rowspan="4">1era Presentación del día 3 de 60 minutos</td>
+			</tr>
+			<tr class = "dia3">
+				<td>3-8:15</td>
+			</tr>
+			<tr class = "dia3">
+				<td>3-8:30</td>
+			</tr>
+			<tr class = "dia3">
+				<td>3-8:45</td>
+			</tr>
+			<tr class = "dia4">
+				<td>4-8:00</td>
+				<td rowspan="3">1era Presentación del día 4 de 45 minutos</td>
+			</tr>
+			<tr class = "dia4">
+				<td>4-8:15</td>
+			 </tr>
+			 <tr class = "dia4">
+				<td>4-8:30</td>
+			 </tr>
+			 <tr class = "dia5">
+				<td>5-8:00</td>
+				<td rowspan="4">1era Presentación del día 5 de 60 minutos</td>
+			</tr>
+			<tr class = "dia5">
+				<td>5-8:15</td>
+			</tr>
+			<tr class = "dia5">
+				<td>5-8:30</td>
+			</tr>
+			<tr class = "dia5">
+				<td>5-8:45</td>
+			</tr>
+
+
+				
+			
+</tbody>
+</table>
+</div>
+</section>
+<h2 class="subtitulo">Altas</h2>
+<section id="AltasdeEmpresa">
+	<form id="AltEmpresa">
+	<h3>Alta de Empresa</h3>
+	<div>
+	<label for="nombre" class="labelblock">Nombre</label>
+	<input type="text" name="nombre" class="nombre" id="nombre"  required>
+	</div>
+	<div>
+	<label for="direccion" class="labelblock">Direccion</label>
+	<input type="text" name="direccion" class="direccion" id="direccion"  required>
+	</div>
+	<div>
+	<label for="telefono" class="labelblock">Telefono</label>
+	<input type="text" name="telefono" class="telefono" id="telefono"  required>
+	</div>
+	<label for="origen" class="labelblock">Origen</label>
+	<div>
+	<input type="radio" class="radio" id="radio1" name="origen">
+	nacional
+	</div>
+	<input type="radio" class="radio" id="radio2" name="origen">
+	extranjera
+	<div>
+	<button id="agregar" class="boton" value="sumbit">Agregar</button>
+	</div>
+	</section>
+	
+	</form>
+	<section id = "AltasdePresentacion">
+	<h3>Alta de Presentación</h3>
+	<form id="AltPres">
+		<div>
+		<label for="opcionEmpresa" class="labelblock">Empresa</label>
+		<select id="opcionEmpresa" class="select">
+			<option>Sin datos</option>
+		</select>
+		</div>
+		<div>
+		<label for="titulo" class="labelblock">Titulo</label>
+		<input type="text" name="titulo" class="titulo" id="tituloLab" required>
+		</div>
+		<div>
+		<label for="descripcion" class="labelblock">Descripcion</label>
+		<input type="text" name="descripcion" class="descripcion" id="descripcion" required>
+		</div>
+		<div>
+		<label for="opcionTema" class="labelblock">Tema</label>
+		<select id="opcionTema" class="select">
+			<option>Inteligencia Artificial</option>
+			<option>Big Data</option>
+			<option>Mobile</option>
+			<option>Redes</option>
+			<option>Seguridad</option>
+			<option>Hardware</option>
+		</select>
+		</div>
+		<div>
+		<label for="opcionDia" class="labelblock">Día</label>
+		<select id="opcionDia" class="select">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		</div>
+		<div>
+		<label for="Duracion" class="labelblock">Duración</label>
+		<select id="Duracion" class="select">
+			<option>15 minutos</option>
+			<option>30 minutos</option>
+			<option>45 minutos</option>
+			<option>60 minutos</option>
+			<option>120 minutos</option>
+			<option>180 minutos</option>
+		</select>
+		</div>
+		<div>
+			<button id="agregar2" class="boton" value="sumbit">Agregar</button>
+		</div>
+	</form>
+</section>
+<h2 class = "subtitulo" id = "idEstadisticas">Consultas y Estadísticas</h2>
+<section>
+<h3>Presentaciones con ...</h3>
+<label for ="Palbuscar">Palabras a buscar:</label>
+<input type="text" name="Palbuscar" class="Palbuscar" id="Palbuscar"  required>
+<input type="checkbox" name="caja" class="caja" id="caja">
+<label for ="caja">Contiene todas</label>
+<input type ="button" id ="consultar" value = "Consultar" class="boton" >
+<ul>
+	<li>Sin datos</li>
+</ul>
+</section>
+<section>
+<h3>Empresas Registradas</h3>
+	<ul>
+		<li>Sin datos</li>
+</ul>
+<h3>Duracion Promedio:</h3>
+	<p>Sin datos</p>
+<h3>Empresas con la máxima cantidad de Presentaciones:</h3>
+	<ul>
+		<li>Sin datos</li>
+	</ul>
+<h3>Total por tipo:</h3>
+	<ol>
+		<li>Inteligencia Artificial - sin datos</li>
+		<li>Big Data - sin datos</li>
+		<li>Mobile - sin datos</li>
+		<li>Redes - sin datos</li>
+		<li>Seguridad - sin datos</li>
+		<li>Hardware - sin datos</li>
+	</ol>
+</section>
+<footer>
+	<p>Programación I - Obligatorio 2do. semestre 2022 <a href="https://www.ort.edu.uy/">Universidad ORT Uruguay</a></p>
+</footer>
+</body>

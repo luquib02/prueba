@@ -1,0 +1,71 @@
+
+body{
+    font-family: Arial;
+}
+header{
+    background-image: url("../img/banner.jpg");
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(19, 19, 70);
+    
+}
+.subtitulo, footer{
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+.dia1{
+    background-color: #fffb00;
+}
+.dia2{
+    background-color: #cfcc03 ;
+}
+.dia3{
+    background-color: #918e03;
+}
+.dia4{
+    background-color: #615f04 ;
+}
+.dia5{
+    background-color: #333202;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.divtabla{
+    overflow: scroll;
+    height: 200px;
+    
+}
+table{
+    width: 50%;
+}
+.labelblock, .radio{
+    width: 100px;
+    display: inline-block;
+}
+#AltasdeEmpresa{
+    float: left;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
+#AltasdePresentacion{
+    float: left;
+}
+#idEstadisticas{
+    clear: both;
+}
+.boton{
+    width: 150px;
+}
+.caja, .Palbuscar{
+    margin-right: 75px;
+}
+#consultar{
+    margin-left: 10px;
+}
